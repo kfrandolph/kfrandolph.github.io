@@ -1,1 +1,59 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Randolph - ASCII Art</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #00ff00;
+            font-family: monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .ascii-container {
+            text-align: center;
+            overflow-x: auto;
+            max-width: 100%;
+        }
+        
+        pre {
+            font-size: 12px;
+            line-height: 1.2;
+            margin: 0;
+            white-space: pre;
+            text-shadow: 0 0 5px #00ff00;
+        }
+        
+        @media (max-width: 768px) {
+            pre {
+                font-size: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ascii-container">
+        <pre>
+ █████   ████            ████              ███████████                            █████          ████            █████     
+░░███   ███░            ░░███             ░░███░░░░░███                          ░░███          ░░███           ░░███      
+ ░███  ███    █████ ████ ░███   ██████     ░███    ░███   ██████   ████████    ███████   ██████  ░███  ████████  ░███████  
+ ░███████    ░░███ ░███  ░███  ███░░███    ░██████████   ░░░░░███ ░░███░░███  ███░░███  ███░░███ ░███ ░░███░░███ ░███░░███ 
+ ░███░░███    ░███ ░███  ░███ ░███████     ░███░░░░░███   ███████  ░███ ░███ ░███ ░███ ░███ ░███ ░███  ░███ ░███ ░███ ░███ 
+ ░███ ░░███   ░███ ░███  ░███ ░███░░░      ░███    ░███  ███░░███  ░███ ░███ ░███ ░███ ░███ ░███ ░███  ░███ ░███ ░███ ░███ 
+ █████ ░░████ ░░███████  █████░░██████     █████   █████░░████████ ████ █████░░████████░░██████  █████ ░███████  ████ █████
+░░░░░   ░░░░   ░░░░░███ ░░░░░  ░░░░░░     ░░░░░   ░░░░░  ░░░░░░░░ ░░░░ ░░░░░  ░░░░░░░░  ░░░░░░  ░░░░░  ░███░░░  ░░░░ ░░░░░ 
+               ███ ░███                                                                                ░███                
+              ░░██████                                                                                 █████               
+               ░░░░░░                                                                                 ░░░░░                
+        </pre>
+    </div>
+</body>
+</html>
